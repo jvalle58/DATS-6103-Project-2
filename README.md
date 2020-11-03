@@ -1,5 +1,3 @@
-# DATS 6103 Project 2
-
 As the US's economy continues to evolve with the rapid tide of globalization and interstate commerce, the opportunities for growth and development for businesses among a variety of sectors have likewise expanded notably over the last two decades. One state that has especially drawn attention as of late for its economic potence is Virginia, partly on account of its proximity to Washington, DC, as well as the nationwide shift toward more technological jobs.
 
 This project will interpret the trends in population, income, and GDP by industry throughout Virginia from 2001 to 2018.  Rather than analyze Virginia as a whole, we can delve further and examine its individual geographic areas.  As a reference over the course of this project, a geographic area can be defined as a county or independent city within Virginia.  We do this in order to take into account the impact of geography on predominant industries.  Of course, we can also consider how the rise of an industry in a certain area can affect said area's population and income over time.
