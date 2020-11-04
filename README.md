@@ -6,6 +6,8 @@ Our data can be found at the [Bureau of Economic Analysis](https://apps.bea.gov/
 
 References for this project are provided below.
 
+-----
+
 Dollar Ticks. (n.d.). Retrieved October 16, 2020, from https://matplotlib.org/3.1.1/gallery/pyplots/dollar_ticks.html
 
 Merge, join, concatenate and compare. (n.d.). Retrieved October 17, 2020, from https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
