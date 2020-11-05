@@ -4,6 +4,8 @@ This project will interpret the trends in population, income, and GDP by industr
 
 Our data can be found at the [Bureau of Economic Analysis](https://apps.bea.gov/regional/downloadzip.cfm), and downloaded and converted as CSV files with the help of Pandas.  After cleaning up our data to focus on the years 2001 through 2018, we will first look at trends in personal and per capita income in both absolute and relative figures.  Similarly, we will pivot toward population, and isolate the areas with the most significant absolute and relative shifts in this regard.  Finally, we will identify which industry constituted the greatest share of total GDP for each area over our time span of interest.  As an extension to this last point, we will expand our inquiry toward identifying what relationships, if any, there are between an area's most significant sector and its relative changes in personal income, per capita income, and population from 2001 to 2018.  Using this, we can identify if there any particular industries drawing more people toward certain areas, or are earning their residents more income, from a societal and individual perspective.
 
+Click [here](https://github.com/jvalle58/Valle-DATS-6103-Project-2/blob/main/DATS%206103%20-%20Individual%20Project%202%20-%20Joseph%20Valle.ipynb) to view the Jupyter Notebook for this project.
+
 References for this project are provided below.
 
 -----
