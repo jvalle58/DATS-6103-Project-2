@@ -1,4 +1,4 @@
-# An Economic Analysis of Virginia's Counties and Independent Cities from 2001 to 2018
+# An Economic Analysis of Virginia from 2001 to 2018
 
 Welcome!  You have arrived at an overview of Virginia's economic trends from 2001 to 2018.  Since the 1950s, Virginia has established itself as an economically potent state built on a wide variety of industries, and has embraced the rapid tide of globalization and interstate commerce.  Partly due to its close proximity to Washington, DC, as well as the nationwide shift toward technologically-oriented jobs, Virginia has especially benefited from such changes, prompting citizens as well as businesses from other states to relocate within its limits.
 
@@ -6,7 +6,7 @@ This project will interpret the trends in population, income, and GDP by industr
 
 ### Preparing our Data
 
-Our data can be picked up at the [Bureau of Economic Analysis](https://apps.bea.gov/regional/downloadzip.cfm) as CSV files.  Before we can proceed with our project though, we have to take some steps toward cleaning up our data.  In particular, it must be emphasized that the BEA, for statistical purposes, occasionally labeled one or more cities with an adjacent county.  Therefore, some counties may report higher figures for population, income, and GDP because of those affiliated cities.  For example, while Fairfax City and Falls Church are independent cities, in both of our data sets we notice how the BEA included these two cities under Fairfax County.  Equally important, this should not be conflated with any cities that already present their own separate figures, such as Alexandria and Virginia Beach. 
+Our data can be picked up at the [Bureau of Economic Analysis](https://apps.bea.gov/regional/downloadzip.cfm) as CSV files.  Before we can proceed with our project though, we have to take some steps toward cleaning up our data.  In particular, it must be emphasized that the BEA, for statistical purposes, occasionally labeled one or more cities with an adjacent county.  Therefore, some counties may report higher figures for population, income, and GDP because of those affiliated cities.  For example, while Fairfax City and Falls Church are independent cities, in both of our data sets we notice how the BEA included these two cities under Fairfax County.  Equally important, this should not be conflated with any cities that already present their own figures, such as Alexandria and Virginia Beach. 
 
 Additionally, in our GDP by industry data set, we see how some areas did not report any figures for certain industries, regardless of the year.  To resolve this, we can isolate our industries of interest by consolidating some under one description for simplicity purposes.  For instance, we can analyze the trade industry without having to separate wholesale and retail trade from each other.  In doing so, we can add the individual industries together to obtain the total GDP values for each area from 2001 to 2018, and avoid reporting aggregate figures that may not account for certain sectors.
 
@@ -33,6 +33,8 @@ References for this project are provided below.
 ### References
 
 Dollar Ticks. (n.d.). Retrieved October 16, 2020, from https://matplotlib.org/3.1.1/gallery/pyplots/dollar_ticks.html
+
+How to convert index of a pandas dataframe into a column? (2013, December 09). Retrieved November 07, 2020, from https://stackoverflow.com/questions/20461165/how-to-convert-index-of-a-pandas-dataframe-into-a-column
 
 Merge, join, concatenate and compare. (n.d.). Retrieved October 17, 2020, from https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
 
